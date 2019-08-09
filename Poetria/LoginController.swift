@@ -34,7 +34,7 @@ class LoginController: UIViewController, PoetProtocol {
         guard let username = usernameTextField.text else {return}
         guard let password = passwordTextField.text else {return}
         
-        // this triggers the PoetController login() method, which will send data back via the loginResponse method
+        // this triggers the PoetController login() method. data will be sent back via the loginResponse method
         poetController.login(with: username, and: password)
         
     } // end logInButtonPressed
@@ -45,9 +45,10 @@ class LoginController: UIViewController, PoetProtocol {
         
         print("and we back!")
         jsonResult = json
-        print("Login JSON result: \(json.description)")
+        print("Login JSON result: \(json.description)") // *victory dance*
+        
+        // TODO: change UI in repsponse to json result from server
         
     } // end loginResponse()
     
-
 } // end LoginController
