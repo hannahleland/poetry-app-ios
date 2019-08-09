@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		E7267C4422C54D83006F3DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7267C4322C54D83006F3DB9 /* AppDelegate.swift */; };
-		E7267C4622C54D83006F3DB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7267C4522C54D83006F3DB9 /* ViewController.swift */; };
+		E7267C4622C54D83006F3DB9 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7267C4522C54D83006F3DB9 /* SignupController.swift */; };
 		E7267C4922C54D83006F3DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7267C4722C54D83006F3DB9 /* Main.storyboard */; };
 		E7267C4B22C54D8A006F3DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7267C4A22C54D8A006F3DB9 /* Assets.xcassets */; };
 		E7267C4E22C54D8A006F3DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7267C4C22C54D8A006F3DB9 /* LaunchScreen.storyboard */; };
 		E7267C5922C54D8A006F3DB9 /* PoetriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7267C5822C54D8A006F3DB9 /* PoetriaTests.swift */; };
 		E7267C6422C54D8A006F3DB9 /* PoetriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7267C6322C54D8A006F3DB9 /* PoetriaUITests.swift */; };
+		E72FCFB422EA5907005C347B /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72FCFB322EA5907005C347B /* Connectivity.swift */; };
+		E7A3CE7A22FA305B00013416 /* PoetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3CE7922FA305B00013416 /* PoetModel.swift */; };
+		E7A3CE7C22FA334D00013416 /* PoetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3CE7B22FA334D00013416 /* PoetController.swift */; };
+		E7DBEFBD22F5E6590064E327 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7DBEFBC22F5E6590064E327 /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		E7267C4022C54D82006F3DB9 /* Poetria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poetria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7267C4322C54D83006F3DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7267C4522C54D83006F3DB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7267C4522C54D83006F3DB9 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		E7267C4822C54D83006F3DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7267C4A22C54D8A006F3DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7267C4D22C54D8A006F3DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		E7267C5F22C54D8A006F3DB9 /* PoetriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoetriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7267C6322C54D8A006F3DB9 /* PoetriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetriaUITests.swift; sourceTree = "<group>"; };
 		E7267C6522C54D8A006F3DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E72FCFB322EA5907005C347B /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		E7A3CE7922FA305B00013416 /* PoetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetModel.swift; sourceTree = "<group>"; };
+		E7A3CE7B22FA334D00013416 /* PoetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoetController.swift; sourceTree = "<group>"; };
+		E7DBEFBC22F5E6590064E327 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				E7267C4322C54D83006F3DB9 /* AppDelegate.swift */,
-				E7267C4522C54D83006F3DB9 /* ViewController.swift */,
+				E7267C4522C54D83006F3DB9 /* SignupController.swift */,
+				E7DBEFBC22F5E6590064E327 /* LoginController.swift */,
 				E7267C4722C54D83006F3DB9 /* Main.storyboard */,
+				E7A3CE7922FA305B00013416 /* PoetModel.swift */,
+				E7A3CE7B22FA334D00013416 /* PoetController.swift */,
+				E72FCFB322EA5907005C347B /* Connectivity.swift */,
 				E7267C4A22C54D8A006F3DB9 /* Assets.xcassets */,
 				E7267C4C22C54D8A006F3DB9 /* LaunchScreen.storyboard */,
 				E7267C4F22C54D8A006F3DB9 /* Info.plist */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7267C4622C54D83006F3DB9 /* ViewController.swift in Sources */,
+				E7A3CE7C22FA334D00013416 /* PoetController.swift in Sources */,
+				E7267C4622C54D83006F3DB9 /* SignupController.swift in Sources */,
+				E72FCFB422EA5907005C347B /* Connectivity.swift in Sources */,
 				E7267C4422C54D83006F3DB9 /* AppDelegate.swift in Sources */,
+				E7DBEFBD22F5E6590064E327 /* LoginController.swift in Sources */,
+				E7A3CE7A22FA305B00013416 /* PoetModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
